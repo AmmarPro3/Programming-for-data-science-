@@ -18,13 +18,13 @@ def input_checker(string_input,inputType):
     """
 
     while True:
-        user_input = input(string_input)
+        userInput = input(string_input)
         try:
-            if user_input.strip(' ').lower() in ['chicago','new york city','washington'] and inputType == 1:
+            if userInput.strip(' ').lower() in ['chicago','new york city','washington'] and inputType == 1:
                 break
-            elif user_input.strip(' ').lower() in ['january', 'february', 'march', 'april', 'may', 'june','all'] and inputType == 2:
+            elif userInput.strip(' ').lower() in ['january', 'february', 'march', 'april', 'may', 'june','all'] and inputType == 2:
                 break
-            elif user_input.strip(' ').lower() in ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all'] and inputType == 3:
+            elif userInput.strip(' ').lower() in ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all'] and inputType == 3:
                 break
             else:
                 if inputType == 1:
@@ -36,7 +36,7 @@ def input_checker(string_input,inputType):
         except ValueError:
             print("Sorry, your input is wrong")
 
-    return user_input.strip(' ').lower()
+    return userInput.strip(' ').lower()
 
 
 def get_filters():
