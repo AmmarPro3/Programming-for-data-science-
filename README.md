@@ -11,3 +11,10 @@ The required files for running this program are:
 * new_york_city.csv
 * chicago.csv
 
+### Requirements
+To complete this project, the following software requirements apply:
+
+* You should have Python 3, NumPy, and pandas installed using Anaconda
+* A text editor, like Sublime or Atom.
+* A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
+
