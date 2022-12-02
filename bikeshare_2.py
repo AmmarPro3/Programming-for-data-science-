@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': "C:/Users/ammar/OneDrive/سطح المكتب/programmin
               'new york city': 'C:/Users/ammar/OneDrive/سطح المكتب/programming for data scince/projects/udacity - project2/csv files/new_york_city.csv',
               'washington': 'C:/Users/ammar/OneDrive/سطح المكتب/programming for data scince/projects/udacity - project2/csv files/washington.csv' }
 
-def input_checker(string_input,input_type):
+def input_checker(string_input,inputType):
     """
     check the validity of user input.
     input_str: is the input of the user
@@ -16,25 +16,25 @@ def input_checker(string_input,input_type):
 
 
     while True:
-        user_input = input(string_input)
+        userInput = input(string_input)
         try:
-            if user_input.strip(' ').lower() in ['chicago','new york city','washington'] and input_type == 1:
+            if userInput.strip(' ').lower() in ['chicago','new york city','washington'] and inputType == 1:
                 break
-            elif user_input.strip(' ').lower() in ['january', 'february', 'march', 'april', 'may', 'june','all'] and input_type == 2:
+            elif userInput.strip(' ').lower() in ['january', 'february', 'march', 'april', 'may', 'june','all'] and inputType == 2:
                 break
-            elif user_input.strip(' ').lower() in ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all'] and input_type == 3:
+            elif userInput.strip(' ').lower() in ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all'] and inputType == 3:
                 break
             else:
-                if input_type == 1:
+                if inputType == 1:
                     print("Sorry, your input should be: chicago new york city or washington")
-                if input_type == 2:
+                if inputType == 2:
                     print("Sorry, your input should be: (january, february, march, april, may, june) or all")
-                if input_type == 3:
+                if inputType == 3:
                     print("Sorry, your input should be: sunday, ... friday, saturday or all")
         except ValueError:
             print("Sorry, your input is wrong")
 
-    return user_input.strip(' ').lower()
+    return userInput.strip(' ').lower()
 
 
 def get_filters():
