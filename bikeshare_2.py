@@ -174,7 +174,7 @@ def user_stats(df,city):
 
         print('\nthe counts of user types are \n', df['Gender'].value_counts())
 
-        # Display earliest, most recent, most and least common year of birth
+        # Display earliest, most recent, and most and least common years of birth
         print('\nthe most recent year of birth is \n',df['Birth Year'].max())
         print('the earliest year of birth is \n', df['Birth Year'].min())
         print('the most common year of berth is \n', df['Birth Year'].mode()[0])
