@@ -13,9 +13,7 @@ def input_checker(string_input,input_type):
     input_type: is the type of input: 1 = city, 2 = month, 3 = day
     """
 
-    """
-    new changes from line 23-27 & 29 in the form of adding .strip(' ') func
-    """
+
 
     while True:
         user_input = input(string_input)
@@ -114,7 +112,7 @@ def time_stats(df):
     # display the most common start hour
     print('the most common start hour is ', df['hour'].mode()[0])
 
-    # new display the most common time of the day to start
+    # display the most common time of the day to start
     time_of_day = pd.cut(df['Start Time'], bins=4, labels=('Morning', 'Noon', 'Evening', 'Night'))
     print('the most common time of the day to start is ', df['Start Time'].mode()[0])
 
@@ -176,12 +174,10 @@ def user_stats(df,city):
 
         print('\nthe counts of user types are \n', df['Gender'].value_counts())
 
-        # Display earliest, most recent, and most common year of birth
+        # Display earliest, most recent, most and least common year of birth
         print('\nthe most recent year of birth is \n',df['Birth Year'].max())
         print('the earliest year of birth is \n', df['Birth Year'].min())
         print('the most common year of berth is \n', df['Birth Year'].mode()[0])
-
-        # new changes in the form of adding (value_counts().idxmin()) to extract the least common year of birth
         print('the least common year of berth is \n', df['Birth Year'].value_counts().index[-1])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
