@@ -1,3 +1,26 @@
+# Project 1: Investigating a relational Database
+*October 17, 2022*
+
+## Overview
+In this project, I used SQL to explore a database related to movie rentals. I wrote SQL code to run SQL queries and answer interesting questions about the database. As part of the project submission, I will have to run SQL queries and build visualizations to showcase the output of my queries.
+
+## Files used
+The files used in this project are:
+
+* DVD Rental sample database, (you can download it [here](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+* ER diagram 'dvd-rental-erd.pdf'
+  
+  
+
+## Requirements
+* you can use **Classroom Workspace** or use **PostgreSQL** on your local machine
+* Data visualization software such as **Excel** or **Tableau**
+
+\
+&nbsp;
+\
+&nbsp;
+
 # Project 2 : Explore US Bikeshare Data
 *November 6, 2022*
 
