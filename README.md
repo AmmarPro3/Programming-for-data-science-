@@ -13,6 +13,8 @@ The files used in this project are:
   
 
 ## Requirements
+To complete this project, the following software requirements apply:
+
 * you can use **Classroom Workspace** or use **PostgreSQL** on your local machine
 * Data visualization software such as **Excel** or **Tableau**
 
@@ -27,17 +29,40 @@ The files used in this project are:
 ## Overview
 In this project, I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I have imported the data to answer interesting questions about it by computing descriptive statistics. Also I had to write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
-### Files used
+## Files used
 The required files for running this program are:
 
 * washington.csv
 * new_york_city.csv
 * chicago.csv
 
-### Requirements
+## Requirements
 To complete this project, the following software requirements apply:
 
 * You should have Python 3, NumPy, and pandas installed using Anaconda
 * A text editor, like Sublime or Atom.
 * A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
+\
+&nbsp;
+\
+&nbsp;
+
+# Project 3: Post your Work on GitHub
+*Sep 9, 2022*
+
+Use the local git repository and GitHub repository to upload **project 2 Explore US Bikeshare Data**. Fork a repository, work on files, stage files and commit them to GitHub. also demonstrate how to hide files using .gitignore files.
+
+## Files used
+The files used in this project are:
+
+* bikeshare_2.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
+
+## Requirements
+To complete this project, the following software requirements apply:
+
+* Git
+* Github Account
